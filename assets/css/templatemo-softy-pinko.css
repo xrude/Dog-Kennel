@@ -644,7 +644,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/home-banner.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -743,6 +743,21 @@ welcome
     margin-bottom: 40px;
   }
 }
+/* Button Know more Class */
+.button-know-more{
+  font-size: 13px;
+    border-radius: 15px;
+    padding: 5px;
+    /* padding: 12px 20px; */
+    background-color: #ff589e;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 0.25px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
 
 
 /* 
@@ -766,6 +781,10 @@ features
   transition: all 0.3s ease 0s;
   position: relative;
   margin-bottom: 30px;
+}
+.add-zoom :hover{
+  transform: scale(1.1);
+
 }
 
 .features-small-item:hover .icon {
