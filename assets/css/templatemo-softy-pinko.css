@@ -783,7 +783,7 @@ features
   margin-bottom: 30px;
 }
 .add-zoom :hover{
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 
 }
 
@@ -1453,6 +1453,15 @@ contact
   height: 150px;
   resize: none;
   padding: 20px;
+}
+
+
+
+/* My Css */
+
+.start-page-image{
+  height: 100px;
+  width: 100px;
 }
 
 /* 
