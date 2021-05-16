@@ -746,17 +746,23 @@ welcome
 /* Button Know more Class */
 .button-know-more{
   font-size: 13px;
-    border-radius: 15px;
-    padding: 5px;
-    /* padding: 12px 20px; */
-    background-color: #ff589e;
-    text-transform: uppercase;
-    color: #fff;
-    letter-spacing: 0.25px;
-    -webkit-transition: all 0.3s ease 0s;
-    -moz-transition: all 0.3s ease 0s;
-    -o-transition: all 0.3s ease 0s;
-    transition: all 0.3s ease 0s;
+  border-radius: 20px;
+  padding: 10px 10px;
+  border-color: #ff589e;
+  background-color: #ff589e;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.dogs-images{
+  height: 200px;
+  width: 130px;
+  border-radius: 10px;
 }
 
 
@@ -876,7 +882,7 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/dog-bg.png);
   z-index: 2;
   top: -20%;
   left: -20%;
