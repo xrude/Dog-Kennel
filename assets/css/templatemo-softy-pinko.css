@@ -298,7 +298,7 @@ body {
 
 @media (max-width: 991px) {
   html, body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .mobile-top-fix {
     margin-top: 30px;
@@ -783,10 +783,10 @@ features
   border-radius: 20px;
   padding: 30px;
   text-align: center;
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s; */
+  /* transition: all 0.3s ease 0s; */
   position: relative;
   margin-bottom: 30px;
 }
@@ -800,10 +800,10 @@ features
 }
 
 .features-small-item .icon {
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -1797,5 +1797,49 @@ body{
 }
 .emergency-doctor-head{
   margin-top: 12px;
-  color: red;
+  color: rgb(27, 26, 26);
+}
+.dot-avil{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(33, 230, 33);
+  border-radius: 50%;
+  display: inline;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.red-dot-avil{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(241, 78, 13);
+  border-radius: 50%;
+  display: inline;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.status{
+  margin: 0px 10px 30px 10px;
+}
+.buy-now-dog-button{
+  background-color: #a759d1;
+  border-radius: 25px;
+}
+.buy-now-dog-button:hover{
+  background-color: rgb(190, 17, 190);
+}
+
+.box-train{
+  /* background-color: rgb(190, 17, 190); */
+  margin-top: 20px;
+  margin-bottom: 50vh;
+  border-radius: 20px;
+
+}
+
+@media screen and (max-width: 428px) {
+  .box-train{
+    background-color: white;
+  }
+    
 }
