@@ -28,6 +28,8 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,300,400,500,700,900");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
 /* 
 ---------------------------------------------
 reset
@@ -296,7 +298,7 @@ body {
 
 @media (max-width: 991px) {
   html, body {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .mobile-top-fix {
     margin-top: 30px;
@@ -644,7 +646,7 @@ welcome
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/banner-bg.png);
+  background-image: url(../images/home-banner.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -743,6 +745,27 @@ welcome
     margin-bottom: 40px;
   }
 }
+/* Button Know more Class */
+.button-know-more{
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  border-color: #ff589e;
+  background-color: #ff589e;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.25px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.dogs-images{
+  height: 200px;
+  width: 130px;
+  border-radius: 10px;
+}
 
 
 /* 
@@ -760,12 +783,16 @@ features
   border-radius: 20px;
   padding: 30px;
   text-align: center;
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s; */
+  /* transition: all 0.3s ease 0s; */
   position: relative;
   margin-bottom: 30px;
+}
+.add-zoom :hover{
+  /* transform: scale(1.1); */
+
 }
 
 .features-small-item:hover .icon {
@@ -773,10 +800,10 @@ features
 }
 
 .features-small-item .icon {
-  -webkit-transition: all 0.3s ease 0s;
+  /* -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s; */
   width: 90px;
   height: 90px;
   line-height: 90px;
@@ -857,15 +884,20 @@ parallax & home seperator
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-image: url(../images/work-process-bg.png);
+  background-image: url(../images/dog-bg.png);
   z-index: 2;
   top: -20%;
   left: -20%;
 }
 
+.blog-image{
+  height: 220px;
+  width: 370px;
+}
 .mini .mini-content {
   position: relative;
   z-index: 3;
+  margin-top: 50px;
 }
 
 .mini .mini-content .info {
@@ -1383,6 +1415,16 @@ blog
 }
 
 
+
+.dog-section{
+  padding-top: 120px;
+}
+.dog-section-doctor{
+  padding-top: 140px;
+  margin-bottom: 20px;
+}
+
+
 /* 
 ---------------------------------------------
 contact
@@ -1434,6 +1476,15 @@ contact
   height: 150px;
   resize: none;
   padding: 20px;
+}
+
+
+
+/* My Css */
+
+.start-page-image{
+  height: 100px;
+  width: 100px;
 }
 
 /* 
@@ -1585,4 +1636,210 @@ preloader
   100% {
     opacity: 0;
   }
+}
+
+
+
+/* Buy Dog Section CSS */
+
+:root{
+  --background-dark: #2d3548;
+  --text-light: rgba(255,255,255,0.6);
+  --text-lighter: rgba(255,255,255,0.9);
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --width-container: 1200px;
+  --height : 12px;
+}
+
+*{
+  border: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+body{
+  height: 100%;
+}
+
+.hero-section{
+  align-items: flex-start;
+  /* background-image: linear-gradient(15deg, #0f4667 0%, #2a6973 150%); */
+  display: flex;
+  min-height: 100%;
+  justify-content: center;
+  padding: var(--spacing-xxl) var(--spacing-l);
+}
+
+.card-grid{
+  /* height: var(--height); */
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-column-gap: var(--spacing-l);
+  grid-row-gap: var(--spacing-l);
+  max-width: var(--width-container);
+  width: 100%;
+}
+
+@media(min-width: 540px){
+  .card-grid{
+    grid-template-columns: repeat(2, 1fr); 
+  }
+}
+
+@media(min-width: 960px){
+  .card-grid{
+    grid-template-columns: repeat(4, 1fr); 
+  }
+}
+
+.card{
+  list-style: none;
+  position: relative;
+  border: none;
+}
+
+.card:before{
+  content: '';
+  display: block;
+  padding-bottom: 150%;
+  width: 100%;
+}
+
+.card__background{
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--spacing-l);
+  bottom: 0;
+  filter: brightness(0.75) saturate(1.2) contrast(0.85);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform-origin: center;
+  trsnsform: scale(1) translateZ(0);
+  transition: 
+    filter 200ms linear,
+    transform 200ms linear;
+}
+
+.card:hover .card__background{
+  transform: scale(1.05) translateZ(0);
+}
+
+.card-grid:hover > .card:not(:hover) .card__background{
+  filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
+}
+
+.card__content{
+  left: 0;
+  padding: var(--spacing-l);
+  position: absolute;
+  top: 0;
+}
+
+.card__category{
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: var(--spacing-s);
+  text-transform: uppercase;
+}
+
+.card__heading{
+  color: var(--text-lighter);
+  font-size: 1.9rem;
+  text-shadow: 2px 2px 20px rgba(0,0,0,0.2);
+  line-height: 1.4;
+  word-spacing: 100vw;
+}
+
+
+.dog-images-details{
+  width: 250px;
+  height: 250px;
+}
+
+.dog-card{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(238, 234, 234);
+}
+
+#search-dog{
+  border-radius: 25px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  float: right;
+  padding: 10px;
+  width: 80%;
+  background-color: rgb(248, 248, 248);
+}
+::placeholder {
+  margin-left: 10px;
+  color: rgb(190, 17, 190);
+}
+
+
+/* Dog Doctor part */
+.emergency-doctor{
+  border-radius: 25px;
+  background-color: rgb(238, 245, 238);
+}
+.emergency-doctor-head{
+  margin-top: 12px;
+  color: rgb(27, 26, 26);
+}
+.dot-avil{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(33, 230, 33);
+  border-radius: 50%;
+  display: inline;
+  margin-bottom: 8px;
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.red-dot-avil{
+  height: 15px;
+  width: 15px;
+  background-color: rgb(241, 78, 13);
+  border-radius: 50%;
+  display: inline;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.status{
+  margin: 0px 10px 30px 10px;
+}
+.buy-now-dog-button{
+  background-color: #a759d1;
+  border-radius: 25px;
+}
+.buy-now-dog-button:hover{
+  background-color: rgb(190, 17, 190);
+}
+
+.box-train{
+  /* background-color: rgb(190, 17, 190); */
+  margin-top: 20px;
+  margin-bottom: 50vh;
+  border-radius: 20px;
+
+}
+
+@media screen and (max-width: 428px) {
+  .box-train{
+    background-color: white;
+  }
+    
 }

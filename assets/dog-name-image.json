@@ -1,0 +1,164 @@
+[
+  {
+    "id": 1,
+    "names": "Akita",
+    "image": "https://i.postimg.cc/SKRDDnFw/Akita.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 2,
+    "names": "American Bully",
+    "image": "https://i.postimg.cc/4ykPfw7g/American-Bully.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 3,
+    "names": "Beagle",
+    "image": "https://i.postimg.cc/FRJGXwKp/Beagle.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 4,
+    "names": "Black Chow Chow",
+    "image": "https://i.postimg.cc/qvkm6mmB/Black-Chow-CHow.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 5,
+    "names": "Black German Shepard",
+    "image": "https://i.postimg.cc/Nf8JMhkP/Black-German-Shepard.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 6,
+    "names": "Black Lab",
+    "image": "",
+    "availability": "Yes"
+  },
+  {
+    "id": 7,
+    "names": "Culture Pom",
+    "image": "https://i.postimg.cc/c4Gk01wn/Culture-Pom.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 8,
+    "names": "European Doberman",
+    "image": "https://i.postimg.cc/ZqQjgJJ0/European-Doberman.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 9,
+    "names": "Fawn Pug",
+    "image": "https://i.postimg.cc/BnMmTxyT/Fawn-Pug.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 10,
+    "names": "French Mustive",
+    "image": "https://i.postimg.cc/KcBQqXwv/French-mustiv.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 11,
+    "names": "German Shepard",
+    "image": "https://i.postimg.cc/L6VDStmc/German-Shepard.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 12,
+    "names": "Golden Reteriwer",
+    "image": "https://i.postimg.cc/PrHy03nb/Golden-Reteriwer.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 13,
+    "names": "Great Dane",
+    "image": "https://i.postimg.cc/3xJBxkRd/Great-Dane.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 14,
+    "names": "Great Dane Harly",
+    "image": "https://i.postimg.cc/90dprTZq/Great-Dane-Harly.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 15,
+    "names": "Maltese",
+    "image": "https://i.postimg.cc/3xSZ4349/Maltese.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 16,
+    "names": "Persian Cat",
+    "image": "https://i.postimg.cc/bvZ9141P/Persian-Cat.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 17,
+    "names": "Poodle",
+    "image": "https://i.postimg.cc/0NhdnZCw/Poodle.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 18,
+    "names": "Rottweiler",
+    "image": "https://i.postimg.cc/NFk6gtv6/Rotwiller.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 19,
+    "names": "Russian Chow Chow",
+    "image": "https://i.postimg.cc/1t60j6WY/Russian-Chow-CHow.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 20,
+    "names": "Saintbernard",
+    "image": "https://i.postimg.cc/pXPQsmKq/Saintbernard.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 21,
+    "names": "Samoyed",
+    "image": "https://i.postimg.cc/v8rL7rx4/Samoyed.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 22,
+    "names": "Shih Tzu",
+    "image": "https://i.postimg.cc/W1HMpSCH/Shih-Tzu.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 23,
+    "names": "Siberian Husky",
+    "image": "https://i.postimg.cc/5yV5d0T9/Siberian-Husky.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 24,
+    "names": "Siberian Husky Blue Eyes",
+    "image": "https://i.postimg.cc/2S6QfgcW/Siberian-Husky-Blue-eyes.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 25,
+    "names": "Snow White Bull Dog",
+    "image": "https://i.postimg.cc/BQNTkJgs/Snow-white-bull-dog.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 26,
+    "names": "Tibetan Mastiff",
+    "image": "https://i.postimg.cc/9fwyDZjF/Tibetian-Mustiff.jpg",
+    "availability": "Yes"
+  },
+  {
+    "id": 27,
+    "names": "Toy Pom",
+    "image": "https://i.postimg.cc/XJMddqVK/Toy-Pom.jpg",
+    "availability": "Yes"
+  }
+]
